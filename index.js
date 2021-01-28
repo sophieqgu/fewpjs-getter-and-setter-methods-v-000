@@ -23,7 +23,7 @@ class Circle {
   }
 
   get circumference() {
-    return 2 * Math.PI * this.radius;
+    return Math.PI * this.diameter;
   }
 
   set circumference(circumference) {
